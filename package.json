@@ -1,6 +1,6 @@
 {
   "name": "@ufotech/rpc-ts-sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "TypeScript interface generator from open-rpc documentations",
   "bin": {
     "rpc-ts-sdk-gen": "./bin/rpc-ts-sdk-gen.js"
