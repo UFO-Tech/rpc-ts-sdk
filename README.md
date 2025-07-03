@@ -18,7 +18,7 @@ A CLI and library to **generate TypeScript interfaces** from an [OpenRPC JSON](h
 ## **Installation**
 
 ```sh
-npm install -g @ufo-tech/rpc-ts-sdk
+npm install -g @ufotech/rpc-ts-sdk
 ```
 
 ---
