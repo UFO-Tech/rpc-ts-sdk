@@ -1,0 +1,30 @@
+{
+  "name": "@ufo-tech/rpc-ts-sdk",
+  "version": "1.0.0",
+  "description": "TypeScript interface generator from open-rpc documentations",
+  "bin": {
+    "rpc-ts-sdk-gen": "./bin/rpc-ts-sdk-gen.js"
+  },
+  "type": "module",
+  "main": "src/generate-schemas.js",
+  "exports": {
+    "./generate-schemas": "./src/generate-schemas.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/rpc-ts-sdk-gen.js"
+  },
+  "keywords": [
+    "openrpc",
+    "typescript",
+    "interface",
+    "generator",
+    "ufo-tech"
+  ],
+  "author": "Твоє ім'я або компанія",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {}
+}
