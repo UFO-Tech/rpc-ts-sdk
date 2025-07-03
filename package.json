@@ -3,12 +3,12 @@
   "version": "1.0.3",
   "description": "TypeScript interface generator from open-rpc documentations",
   "bin": {
-    "rpc-ts-sdk-gen": "./bin/rpc-ts-sdk-gen.js"
+    "rpc-ts-sdk-gen": "./dist/bin/rpc-ts-sdk-gen.js"
   },
   "type": "module",
-  "main": "src/generate-schemas.js",
+  "main": "./dist/src/generate-schemas.js",
   "exports": {
-    "./generate-schemas": "./src/generate-schemas.js"
+    "./generate-schemas": "./dist/src/generate-schemas.js"
   },
   "scripts": {
     "build": "tsc",
