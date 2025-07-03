@@ -6,12 +6,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Build output
-dist/
-*.js
-*.js.map
-*.d.ts
-
 # Ignore IDE/editor files
 .idea/
 .vscode/

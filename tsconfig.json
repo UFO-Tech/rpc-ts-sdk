@@ -3,10 +3,10 @@
         "module": "NodeNext",
         "target": "ES2022",
         "declaration": true,
-        "outDir": "./",
+        "outDir": "dist",
         "esModuleInterop": true,
-        "allowImportingTsExtensions": true,
-        "moduleResolution": "NodeNext"
+        "moduleResolution": "NodeNext",
+        "rootDir": "."
     },
-    "include": ["src", "bin"]
+    "include": ["src/**/*.ts", "bin/**/*.ts"]
 }
